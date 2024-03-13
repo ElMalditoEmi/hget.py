@@ -99,7 +99,7 @@ def connect_to_server(server_name):
     # Aqui deben conectarse al puerto correcto del servidor
     # NO MODIFICAR POR FUERA DE ESTA FUNCION
     skt = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    skt.connect((ip_address,HTTP_PORT))
+    skt.connect((ip_address, HTTP_PORT))
     return skt
 
 
